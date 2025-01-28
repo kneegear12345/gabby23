@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "HTML",
+			"path": "../HTML"
+		},
+		{
+			"name": "Gabriel's foloder",
+			"path": "../../../../index/Gabriel's foloder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

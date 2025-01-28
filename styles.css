@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("blackbanner.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+} 
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  height: 10px;
+}
+
+nav img{
+  width: 255px;
+  height:  40px;
+  margin-left: 100px;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;  
+}
+
+.nav-links ul li::after{
+  content: "";
+  width: 0%;
+  height:2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+.about-us{
+  height: 1400px;
+  width: 600;
+}
+
+.background{
+  background-color: black;
+  height: 510px;
+  width: 1233px;
+  position: relative;
+  justify-self: center;
+  margin-top: 100px;
+}
+
+.background h3{
+  color: white;
+  font-size: 16px;
+  padding-left: 75px;
+  padding-top: 150px;
+  font-weight: 400;
+}
+
+.background p{
+  color: white;
+  padding-left: 75px;
+  padding-top: 10px;
+  font-size: 28px;
+}
+
+.background img{
+  position: relative;
+  margin-top: 200px;
+}
+
+.Selected-Works{
+  align-items: center;
+  display: flex;
+}
+
+
+.Works{
+  font-size: 30px; 
+  text-align: center;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+
+.Container{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+ 
+
+
+.card{
+  border-radius: 20px;
+  margin:5px;
+  height: 400px;
+  width: auto;
+  flex: 1;
+  transition: .3s ease-in;
+}
+
+.card:hover{
+  flex: 2;
+}
+
+
